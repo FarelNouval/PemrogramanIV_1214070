@@ -1,0 +1,37 @@
+name: uts1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_product_card: ^0.0.7
+  carousel_slider: ^5.0.0
+  gif: ^2.3.0
+  smooth_page_indicator: ^1.2.0+3
+  intl: ^0.19.0
+  file_picker: ^8.1.4
+  flutter_colorpicker: ^1.0.3
+  open_file: ^3.5.10
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/font/Poppins-Bold.ttf
+          weight: 700
